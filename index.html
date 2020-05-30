@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="block active-block">
+            <label><span class="hint">*enter real data</span><input type="text">First name</label><br>
+            <label><span class="hint">*enter real data</span><input type="text">Last name</label><br>
+            <label><span class="hint">*The nickname must has only letters</span><input type="text">
+                Nickname</label><br>
+            <label><span class="hint">*Email must have @</span><input type="text">Email</label><br>
+        </div>
+        <div class="block">
+            <label><input type="text">Login</label><br>
+            <label><input type="text">Password</label><br>
+        </div>
+        <button>Submit</button>
+    </form>
+    <div class="wrapper">
+        <div class="slider"></div>
+        <div class="dots"></div>
+        <div class="button-previous">
+            <img src="img/left.png">
+        </div>
+        <div class="button-next">
+            <img src="img/right.png">
+        </div>
+    </div>
+    <div class="filter-wrapper">
+        <h2>My Phonebook</h2>
+        <input class="filter" placeholder="Enter the first letter of the name...">
+        <div class="results"></div>
+    </div>
+    <script src="faker.js"></script>
+    <script src="slider.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
